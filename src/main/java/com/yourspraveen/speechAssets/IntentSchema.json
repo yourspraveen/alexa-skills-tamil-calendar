@@ -1,0 +1,16 @@
+{
+  "intents": [
+    {
+      "intent": "GetTamilDate",
+      "slots": [
+        {
+          "name": "date",
+          "type": "AMAZON.DATE"
+        }
+      ]
+    },
+    {
+      "intent": "GetTamilDateToday"
+    }
+  ]
+}

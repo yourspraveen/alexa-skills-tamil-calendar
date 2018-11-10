@@ -6,10 +6,7 @@
   <packaging>jar</packaging>
   <version>1.0</version>
   <name>Alexa Skills Tamil Calendar</name>
-  <properties>
-    <jetty-Version>9.3.24.v20180605</jetty-version>
-    <slf4j-version>1.7.25</slf4j-version>
-  </properties>
+
   <dependencies>
     <dependency>
       <groupId>com.amazon.alexa</groupId>
@@ -20,13 +17,13 @@
     <dependency>
       <groupId>org.eclipse.jetty</groupId>
       <artifactId>jetty-server</artifactId>
-      <version>${jetty-Version}</version>
+      <version>${jetty-version}</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.eclipse.jetty</groupId>
       <artifactId>jetty-servlet</artifactId>
-      <version>${jetty-Version}</version>
+      <version>${jetty-version}</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -64,6 +61,8 @@
     <property name="disableRequestSignatureCheck" value="false"/>
     <property name="supportedApplicationIds" value=""/>
     <property name="timestampTolerance" value="150"/>
+    <jetty-version>9.3.24.v20180605</jetty-version>
+    <slf4j-version>1.7.25</slf4j-version>
   </properties>
 
   <build>
